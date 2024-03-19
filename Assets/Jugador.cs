@@ -3,15 +3,8 @@ using UnityEngine;
 public class Jugador : MonoBehaviour
 {
     public float speed = 5f; // Velocidad de movimiento del jugador
-    private GameObject circulo;
-
-    void Start(){
-        circulo = GameObject.Find("Circle");
-    }
-
     void Update()
     {
-
         // Obtener la entrada del usuario para moverse horizontal y verticalmente
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
