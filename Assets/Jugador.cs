@@ -26,3 +26,4 @@ public class Jugador : MonoBehaviour
     }
 
 }
+// porque esta vacio el github???
